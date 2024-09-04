@@ -6,6 +6,8 @@ Este es un proyecto técnico creado para **LamansysTest**, en el cual se utiliza
 
 El proyecto utiliza las siguientes librerías:
 
+- **Java**: version del JDK 17
+
 - **Selenium**: Utilizada para la automatización de pruebas en aplicaciones web, como la interacción con elementos en las páginas de Gmail y eBay.
 
 - **RestAssured**: Utilizada para realizar pruebas automatizadas de APIs, específicamente para probar las funcionalidades de la API de PetShop.
