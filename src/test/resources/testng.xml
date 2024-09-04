@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LamansysTest">
+    <listeners>
+        <!-- Especifica el listener para generar el reporte -->
+        <listener class-name="ExtentReportListener" />
+    </listeners>
+    <test name="SetPruebas Automatizadas">
+        <classes>
+            <class name="tests.GmailLoginTest" />
+            <class name="tests.EbaySearchTest" />
+            <class name="tests.PetstoreTest" />
+        </classes>
+    </test>
+</suite>
